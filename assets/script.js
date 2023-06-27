@@ -1,18 +1,18 @@
 console.log('working');
     
-  // const d = new Date();
-  // nowY = d.getFullYear();
-  // console.log(nowY, 'now year');
+  const d = new Date();
+  nowY = d.getFullYear();
+  console.log(nowY, 'now year');
 
-  // nowM = d.getMonth() + 1; //current month is in an array that starts from 0
-  // console.log(nowM, 'now month');
+  nowM = d.getMonth() + 1; //current month is in an array that starts from 0
+  console.log(nowM, 'now month');
 
-  // nowD = d.getDate();
-  // console.log(nowD, 'now day');
+  nowD = d.getDate();
+  console.log(nowD, 'now day');
   
-  const nowY = 2004;
-  const nowM = 3;
-  const nowD = 15;
+  // const nowY = 2004;
+  // const nowM = 3;
+  // const nowD = 15;
 
 
   const previousNowM = nowM - 1;
