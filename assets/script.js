@@ -4,10 +4,10 @@ console.log('working');
   nowY = d.getFullYear();
   console.log(nowY, 'now year');
 
-  nowM = d.getMonth() + 1; //current month is in an array that starts from 0
+  const nowM = d.getMonth() + 1; //current month is in an array that starts from 0
   console.log(nowM, 'now month');
 
-  nowD = d.getDate();
+  const nowD = d.getDate();
   console.log(nowD, 'now day');
   
   // const nowY = 2004;
